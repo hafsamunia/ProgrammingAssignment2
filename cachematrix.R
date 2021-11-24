@@ -1,8 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
-
+## ## I simply set the input x as a matrix
+## and then set the solved value "s" as a null
+## then I changed every reference to "mean" to "solve"
 makeCacheMatrix <- function(x = matrix()) {
   ## Initialize the inverse property
   y<-NULL
@@ -60,4 +58,4 @@ cacheSolve <- function(x, ...) {
   m
 }
 
-##
+
